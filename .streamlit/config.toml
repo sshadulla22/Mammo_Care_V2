@@ -1,0 +1,11 @@
+[theme]
+base = "light"
+primaryColor = "#31333f"
+
+[server]
+headless = true
+enableCORS = false
+port = 8501
+
+[global]
+layout = "wide"  # Enable wide layout
