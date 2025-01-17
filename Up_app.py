@@ -22,7 +22,7 @@ import io
 
 # Set the API key for aiXplain
 API_KEY = '28856c93653ac3fa98408ab6a63cb8f54753a3d8b358384049d36b49c61297ed'
-API_URL = 'https://platform.aixplain.com/discover/model/640b517694bf816d35a59125?tab=integration'  # aiXplain model URL
+API_URL = 'https://models.aixplain.com/api/v1/execute/640b517694bf816d35a59125'  # aiXplain model URL
 
 headers = {
     "Authorization": f"Bearer {API_KEY}",
