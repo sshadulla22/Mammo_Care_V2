@@ -687,18 +687,19 @@ if selected == "How to Use This Software":
 if selected == "Presentation Deck":
     st.title('Presentation Deck')
 
-    # Embed the Canva design using iframe
-    canva_iframe_code = """
-    <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
-    padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
-    border-radius: 8px; will-change: transform;">
-    <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https://www.canva.com/design/DAGSuE39DdE/S6k_tKSQB4iHaG7GMzL4_Q/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-    </iframe>
-    </div>
-    <a href="https://www.canva.com/design/DAGSuE39DdE/S6k_tKSQB4iHaG7GMzL4_Q/view?utm_content=DAGSuE39DdE&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">MIAS DDSM InBreast</a> by MOHDSHADULLA SHAIKH
-    """
-    st.markdown(canva_iframe_code, unsafe_allow_html=True)    
+# Embed the Canva design using iframe
+canva_iframe_code = """
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+border-radius: 8px; will-change: transform;">
+<iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+src="https://www.canva.com/design/DAGcen6YcKs/buTsnt1xnPjilt5Q7N_aKg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+</iframe>
+</div>
+<a href="https://www.canva.com/design/DAGcen6YcKs/buTsnt1xnPjilt5Q7N_aKg/view?utm_content=DAGcen6YcKs&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">MIAS DDSM InBreast</a> by MOHDSHADULLA SHAIKH
+"""
+st.markdown(canva_iframe_code, unsafe_allow_html=True)
+
     
 
 
