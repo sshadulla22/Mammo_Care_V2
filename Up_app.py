@@ -692,9 +692,7 @@ canva_iframe_code = """
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
 padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
 border-radius: 8px; will-change: transform;">
-<iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-src="https://www.canva.com/design/DAGcen6YcKs/buTsnt1xnPjilt5Q7N_aKg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/monCsGoYujk?si=EXw3XmTcM3zsB5z-&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 <a href="https://www.canva.com/design/DAGcen6YcKs/buTsnt1xnPjilt5Q7N_aKg/view?utm_content=DAGcen6YcKs&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">MIAS DDSM InBreast</a> by MOHDSHADULLA SHAIKH
 """
